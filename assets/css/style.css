@@ -36,12 +36,15 @@ li{
     padding: 0 2em;
     font-weight: 600;
 }
-#header-img{
+.sticky-img{
+    -webkit-filter: invert(1) ;
+	filter: invert(1) ;
+}
+.navbar-brand{
     font-weight: 700;
 }
 .home-wrap{
-    background: linear-gradient(-89deg, #eff0f4 0%, #eff0f4 30%, #eff0f4 70%) center no-repeat fixed;
-    background-size: cover;
+    background: linear-gradient(-89deg, #eff0f4 0%, #eff0f4 30%, #eff0f4 70%);
     display: table;
     position: relative;
     width: 100%; 
@@ -95,7 +98,7 @@ li{
     height:42%;
     width: 42%;
 }
-#video{
+#section-video{
     background-color: #eff0f470 ;
 }
 .title-sub{
@@ -119,7 +122,6 @@ li{
 #form-contact{
     background-color: #074E68;
     color: whitesmoke;
-    /* background-color: #074E68;*/
 }
 #form-contact p{
     font-size: 1.1em;

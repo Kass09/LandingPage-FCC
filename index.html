@@ -10,13 +10,13 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="/assets/css/style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-        <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </head>
     <body>
         <header id="header">
             <nav id="nav-bar" class="navbar navbar-expand-md navbar-light fixed-top">
                 <div class="container">
-                    <a id="header-img" class="navbar-brand" href="#">ForceXon</a>
+                    <a class="navbar-brand" href="#"><img id="header-img" src="https://image.flaticon.com/icons/svg/23/23310.svg" width="30" height="30" alt="img-logo" class="d-inline-block align-top">ForceXon</a>
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                         aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
                     </button>
@@ -42,7 +42,6 @@
                         <button type="button" class="btn-more btn btn-primary btn-lg mt-2">Sign up free<i class="fas fa-arrow-right ml-2"></i></button>
                     </div>
                     <div id="img-ban" class="col-lg-6 mt-4">
-                        <!--img src="https://i1.wp.com/www.miyens.com/wp-content/uploads/2017/12/mobile-developer.png" alt="" class="img-fluid"-->
                         <img src="http://www.cercalia.com/portal/sites/default/files/developer.png" class="img-fluid" alt="imagen-presentacion">
                     </div>
                 </div>
@@ -69,7 +68,7 @@
                     </div>
                 </div>
             </section>
-            <section id="video" class="container-fluid">
+            <section id="section-video" class="container-fluid">
                 <div class="row padding">
                     <div class="col-md-6 desc-video">
                         <div class="video-wrap pt-5">
@@ -81,7 +80,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <iframe id="video-frame" width="800" height="300" src="https://www.youtube.com/embed/f1IwmVKjdHk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe id="video" width="800" height="300" src="https://www.youtube.com/embed/f1IwmVKjdHk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
             </section>
@@ -162,7 +161,7 @@
                                 <div class="input-group col-md-8 offset-md-2">
                                     <label><i class="fas fa-envelope"></i></label>
                                     <input type="email" name="email" id="email" class="input-email form-control" placeholder="Enter your email address">
-                                    <span><button type="submit" class="btn btn-primary btn-more input-group-btn">Get Started</button></span>
+                                    <span><input id="submit" type="submit" class="btn btn-primary btn-more input-group-btn" value="Get Started"></span>
                                 </div>
                             </div>
                         </div>
